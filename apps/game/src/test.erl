@@ -17,7 +17,7 @@ add_pkcs7_padding(UnpaddedDataBin, BlockSize) ->
     <<UnpaddedDataBin/binary, Padding/binary>>.
 
 test() ->
-	ok.
+	okk.
 %% ===================================================================
 %% Unit Tests
 %% ===================================================================
