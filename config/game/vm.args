@@ -1,0 +1,7 @@
+-name game@127.0.0.1
+
+-setcookie game_cookie
+
+-smp
++K true
++A30

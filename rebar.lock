@@ -1,0 +1,26 @@
+{"1.2.0",
+[{<<"goldrush">>,{pkg,<<"goldrush">>,<<"0.1.9">>},1},
+ {<<"lager">>,{pkg,<<"lager">>,<<"3.9.2">>},0},
+ {<<"mysql">>,
+  {git,"https://github.com/mysql-otp/mysql-otp.git",
+       {ref,"6b089f9c273771310d3a491fa33de0c0eddf0a33"}},
+  1},
+ {<<"mysql_poolboy">>,
+  {git,"https://github.com/mysql-otp/mysql-otp-poolboy",
+       {ref,"20c7247f25eaa998232268afe549e4f1ce644a5c"}},
+  0},
+ {<<"poolboy">>,
+  {git,"https://github.com/devinus/poolboy.git",
+       {ref,"29be47db8c2be38b18c908e43a80ebb7b9b6116b"}},
+  1},
+ {<<"ranch">>,{pkg,<<"ranch">>,<<"2.1.0">>},0}]}.
+[
+{pkg_hash,[
+ {<<"goldrush">>, <<"F06E5D5F1277DA5C413E84D5A2924174182FB108DABB39D5EC548B27424CD106">>},
+ {<<"lager">>, <<"4CAB289120EB24964E3886BD22323CB5FEFE4510C076992A23AD18CF85413D8C">>},
+ {<<"ranch">>, <<"2261F9ED9574DCFCC444106B9F6DA155E6E540B2F82BA3D42B339B93673B72A3">>}]},
+{pkg_hash_ext,[
+ {<<"goldrush">>, <<"99CB4128CFFCB3227581E5D4D803D5413FA643F4EB96523F77D9E6937D994CEB">>},
+ {<<"lager">>, <<"7F904D9E87A8CB7E66156ED31768D1C8E26EBA1D54F4BC85B1AA4AC1F6340C28">>},
+ {<<"ranch">>, <<"244EE3FA2A6175270D8E1FC59024FD9DBC76294A321057DE8F803B1479E76916">>}]}
+].
