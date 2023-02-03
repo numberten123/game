@@ -17,7 +17,7 @@ stop:
 appup:
 	@rebar3 release
 	@rebar3 appup generate
-	@rebar3 relup
+	@rebar3 relup --relname game --relvsn 0.1.2
 	@rebar3 tar
 xls:
 ifeq (${mod},all)
