@@ -14,6 +14,11 @@ remote:
 stop:
 	@./tool/single_c/stop.sh
 	@./_build/default/rel/game/bin/game stop
+appup:
+	@rebar3 release
+	@rebar3 appup generate
+	@rebar3 relup
+	@rebar3 tar
 xls:
 ifeq (${mod},all)
 	@./tool/xls/make_all_erl.sh
