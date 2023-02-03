@@ -1,6 +1,6 @@
 -module(test).
 
--export([test/0]).
+-export([test/0,add_pkcs7_padding/2]).
 
 -ifdef(TEST).
 -include_lib("eunit/include/eunit.hrl").
